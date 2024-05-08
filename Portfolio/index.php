@@ -31,9 +31,9 @@
     <script>
         $(function(){
             $(".loginButton").click(function(){
-                var email = document.getElementById('username').value.toLowerCase();
+                var username = document.getElementById('username').value.toLowerCase();
                 var password = document.getElementById('password').value.toLowerCase();
-                if (email == "wjbastismo" && password == "basti"){
+                if (username == "wjbastismo" && password == "basti"){
                     window.location.href = "htmlpages/portfolio.html";
                     alert('Welcome, Walter James!')
                 } else {
